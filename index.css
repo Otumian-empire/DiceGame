@@ -1,0 +1,97 @@
+body {
+    width: 1300px;
+    height: 600px;
+    /* background-color: #1b2426; */
+    color: #5b6466;
+    background-size: 100% 100%;
+    background-image: url(./img/chess-background.jpg);
+    background-repeat: no-repeat;
+}
+
+#content {
+    width: 90%;
+    height: 90%;
+}
+
+#header {
+    width: 90%;
+    height: 15%;
+}
+
+#game-title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 15%;
+    height: 30%;
+}
+
+#game-title:hover {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#high-score {}
+
+#play-station {
+    width: 90%;
+    height: 60%;
+}
+
+#dice-img {}
+
+#footer {
+    width: 90%;
+    height: 15%;
+}
+
+#roll-dice {
+    padding: 2px 2px;
+    border-radius: 5px;    
+    color: #ffffff;
+    width: 15%;
+    height: 30%;
+    background-color: #4caf50;
+    cursor: pointer;
+}
+
+#roll-dice:hover{
+    text-align: center;
+    padding: 4px 2px;
+    border-radius: 7px;    
+    color: #ffadff;
+    background-color: #0db313;
+    cursor: pointer;
+}
+/* #4caf50 color for the bg */
+
+#chances-left {}
+
+#current-score {}
+
+img {
+    width: 15%;
+    height: 20%;
+}
+
+p {
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.zero-box {
+    margin: 0px;
+    border: none;
+    padding: 0px;
+}
+
+.ten-percent-box {
+    margin: 2% 2% 2% 2%;
+    border: 1% thick #373d3f;
+    padding: 2% 2% 2% 2%;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.display-inline {
+    display: inline;
+}
