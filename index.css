@@ -1,4 +1,6 @@
 body {
+    margin: 0;
+    padding: 0;
     width: 1300px;
     height: 600px;
     /* background-color: #1b2426; */
@@ -11,11 +13,14 @@ body {
 #content {
     width: 90%;
     height: 90%;
+    margin: 0;
+    padding: 0;
 }
 
 #header {
     width: 90%;
     height: 15%;
+    margin: auto;
 }
 
 #game-title {
@@ -31,13 +36,15 @@ body {
 #high-score {}
 
 #play-station {
+    margin: 10px auto;
     width: 90%;
-    height: 60%;
+    height: 50%;
 }
 
 #dice-img {}
 
 #footer {
+    margin: auto;
     width: 90%;
     height: 15%;
 }
@@ -69,6 +76,7 @@ body {
 img {
     width: 15%;
     height: 20%;
+    padding: 5px;
 }
 
 p {
@@ -79,19 +87,80 @@ p {
 }
 
 .zero-box {
-    margin: 0px;
+    margin: 0;
     border: none;
-    padding: 0px;
+    padding: 0;
 }
 
 .ten-percent-box {
     margin: 2% 2% 2% 2%;
-    border: 1% thick #373d3f;
+    border: 1% solid #373d3f;
     padding: 2% 2% 2% 2%;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
 }
 
 .display-inline {
     display: inline;
+}
+
+/* 
+    Making the page responsive to device size
+
+    width of body: 1300px;
+    height of body: 600px;
+    width: 15%;
+    height: 20%;
+    width and height are reduced by 10%
+ */
+
+ /* reduce 10% */
+@media(max-width:1170px) {
+    img {
+        width: 13.5%;
+        height: 18%;
+        padding: auto;
+        margin: auto;
+    }
+}
+
+/* reduce 20% */
+@media(max-width:936px) {
+    img {
+        width: 10.8%;
+        height: 14.4%;
+        padding: auto;
+        margin: auto;
+    }
+}
+
+/* reduce 30% */
+@media(max-width:655.2px) {
+    img {
+        width: 7.56%;
+        height: 10.08%;
+        padding: auto;
+        margin: auto;
+    }
+}
+
+/* reduce 40% */
+@media(max-width:468px) {
+    img {
+        width: 5.4%;
+        height: 6.048%;
+        padding: auto;
+        margin: auto;
+    }
+}
+
+
+/* reduce 50% */
+@media(max-width:234px) {
+    img {
+        width: 2.7%;
+        height: 3.024%;
+        padding: auto;
+        margin: auto;
+    }
 }

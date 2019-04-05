@@ -6,13 +6,14 @@ hscore = cscore. After a the 5 attempts, a replay funtion is called which the se
 the high score and reset cscore and cleft - chances left to the default values
 
 # The program is made up of 3 files
-index.html
-index.css
-index.js
+* index.html
+* index.css
+* index.js
 
 # Naming conversions
-variable names : underscore
-funtion names : camelCase
+* variable names : underscore
+* funtion names : camelCase
 
-# Images from pixarbay.com
+# Images from 
+(pixaybay [pixarbay.com])
 
