@@ -33,7 +33,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-#high-score {}
+/* #high-score {} */
 
 #play-station {
     margin: 10px auto;
@@ -41,7 +41,7 @@ body {
     height: 50%;
 }
 
-#dice-img {}
+/* #dice-img {} */
 
 #footer {
     margin: auto;
@@ -68,10 +68,10 @@ body {
     cursor: pointer;
 }
 /* #4caf50 color for the bg */
-
+/* 
 #chances-left {}
 
-#current-score {}
+#current-score {} */
 
 img {
     width: 15%;
