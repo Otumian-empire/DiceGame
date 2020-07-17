@@ -11,7 +11,7 @@ the high score and reset cscore and cleft - chances left to the default values
 * index.js
 
 # Naming conversions
-* variable names : underscore
+* variable names : snakecase
 * funtion names : camelCase
 
 # Images from 
